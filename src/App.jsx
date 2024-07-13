@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import Meals from "./components/Meals";
+
 const App = () => {
   return ( 
     <div className="app">
-      <h1>ok</h1>
+     <Header/>
+      <Meals/>
     </div>
    );
 }

@@ -1,0 +1,11 @@
+.meals{
+
+    ul{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        margin: 0 auto; 
+        width: 90%; 
+        max-width: 1200px;
+    }
+}
