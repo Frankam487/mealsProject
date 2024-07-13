@@ -1,5 +1,25 @@
 .header {
-text-align: center;
-margin-top: 40px;
+    text-align: center;
+    margin-top: 40px;
 
+    input,
+    h1 {
+        margin: 12px 0;
+    }
+
+    input {
+        padding: 5px;
+        color: rgba(34, 34, 34, 0.795);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+        background: rgb(1, 31, 31);
+        color: aliceblue;
+        font-weight: 500;
+
+        &:focus {
+            border-radius: 4px;
+            background: transparent;
+            color: black;
+        }
+    }
 }
