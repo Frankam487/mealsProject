@@ -14,7 +14,7 @@ const Meals = ({inputValue}) => {
                 {
                     data
                     .filter((meal) => meal.strMeal.toLowerCase().match((inputValue.toLowerCase())))
-                    .sort((a, b) => b.strMeal - a.strMeal)
+                    .sort((a, b) => a.strMeal.localeCompare(b.strMeal))
                     .map((meal) => (
                         <Card meal={meal} key={meal.idMeal} />
                     ))
